@@ -72,8 +72,11 @@ body {
 		align-items: center;
 		justify-content: center;
 		display: none;
-		transition: color 0.3s;
 		color: white;
+		transition: color .3s;
+		&:hover{
+			color: black;
+		}
 	}
 }
 .quiz__btn:hover:not([disabled]) {
